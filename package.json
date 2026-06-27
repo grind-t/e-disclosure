@@ -1,14 +1,14 @@
 {
-  "name": "@grind-t/lib",
+  "name": "@grind-t/e-disclosure",
   "version": "1.0.0",
-  "homepage": "https://github.com/grind-t/lib#readme",
+  "homepage": "https://github.com/grind-t/e-disclosure#readme",
   "bugs": {
-    "url": "https://github.com/grind-t/lib/issues"
+    "url": "https://github.com/grind-t/e-disclosure/issues"
   },
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grind-t/lib.git"
+    "url": "git+https://github.com/grind-t/e-disclosure.git"
   },
   "files": [
     "dist"

@@ -4,14 +4,14 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { promisify } from "node:util";
 
-import { chromium } from "patchright";
+import { chromium, type Locator, type Page } from "patchright";
 
 const execFileAsync = promisify(execFile);
 
 const CAPTCHA_URL = "https://www.e-disclosure.ru/";
 const CAPTCHA_ROOT_SELECTOR = "#captcha_root";
 const CAPTCHA_IMAGE_SELECTOR = ".captcha-img img";
-const CAPTCHA_TRACK_SELECTOR = ".captcha-control";
+const CAPTCHA_TRACK_SELECTOR = ".captcha-control-wrap";
 const CAPTCHA_HANDLE_SELECTOR = ".captcha-control-button";
 
 async function detectRotationAngle(imagePath: string): Promise<number> {
@@ -27,14 +27,30 @@ async function detectRotationAngle(imagePath: string): Promise<number> {
   if (Number.isNaN(angle)) {
     throw new Error(`detect_rotation_angle.py returned a non-numeric angle: ${stdout.trim()}`);
   }
-  return angle;
+  return 360 - angle;
+}
+
+async function screenshotSquareElement(page: Page, locator: Locator, path: string): Promise<void> {
+  const box = await locator.boundingBox();
+  if (!box) {
+    throw new Error("Could not measure the captcha image element for screenshotting.");
+  }
+  const side = Math.floor(Math.min(box.width, box.height));
+  await page.screenshot({ path, clip: { x: box.x, y: box.y, width: side, height: side } });
 }
 
 async function main(): Promise<void> {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launchPersistentContext("./user-data", {
+    channel: "chrome",
+    headless: false,
+    viewport: null,
+  });
+
   try {
     const page = await browser.newPage();
     await page.goto(CAPTCHA_URL, { waitUntil: "domcontentloaded" });
+
+    /*
 
     const captchaRoot = page.locator(CAPTCHA_ROOT_SELECTOR);
     try {
@@ -53,7 +69,7 @@ async function main(): Promise<void> {
     const capturedImagePath = join(workDir, "captcha.png");
 
     const captchaImage = page.locator(CAPTCHA_IMAGE_SELECTOR);
-    await captchaImage.screenshot({ path: capturedImagePath });
+    await screenshotSquareElement(page, captchaImage, capturedImagePath);
     console.log(`Captcha image saved to ${capturedImagePath}`);
 
     const angle = await detectRotationAngle(capturedImagePath);
@@ -74,32 +90,17 @@ async function main(): Promise<void> {
     await page.mouse.move(startX, startY);
     await page.mouse.down();
 
-    // A couple of correction passes compensate for any rounding the widget's
-    // own angle-from-position math applies, since it isn't perfectly linear
-    // at the edges.
-    let targetX = trackBox.x + handleBox.width / 2 + (angle / 360) * travel;
-    for (let attempt = 0; attempt < 3; attempt++) {
-      await page.mouse.move(targetX, startY, { steps: 10 });
-      await page.waitForTimeout(100);
-
-      const currentAngle = await captchaImage.evaluate((img) => {
-        const match = /rotate\((-?\d+(?:\.\d+)?)deg\)/.exec((img as HTMLElement).style.transform);
-        return match ? Number.parseFloat(match[1]) : 0;
-      });
-
-      const diff = angle - currentAngle;
-      if (Math.abs(diff) < 0.5) break;
-      targetX += (diff / 360) * travel;
-    }
+    let targetX = startX + (angle / 360) * travel;
+    await page.mouse.move(targetX, startY);
 
     await page.mouse.up();
-    await page.waitForTimeout(200);
+    await page.waitForTimeout(5000);
 
     const rotatedPath = join(workDir, "captcha-rotated.png");
-    await captchaImage.screenshot({ path: rotatedPath });
-    console.log(`Rotated captcha screenshot saved to ${rotatedPath}`);
+    await screenshotSquareElement(page, captchaImage, rotatedPath);
+    console.log(`Rotated captcha screenshot saved to ${rotatedPath}`);*/
   } finally {
-    await browser.close();
+    //await browser.close();
   }
 }
 

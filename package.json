@@ -32,11 +32,9 @@
     "solve-captcha": "node --experimental-transform-types src/solve-captcha.ts"
   },
   "dependencies": {
-    "ghost-cursor-patchright-core": "^1.3.42",
     "patchright": "^1.62.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "latest",
     "@types/node": "latest",
     "oxfmt": "latest",
     "oxlint": "latest",

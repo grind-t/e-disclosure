@@ -27,9 +27,8 @@
     "test:unit": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.unit.test.ts\"",
     "test:e2e": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.e2e.test.ts\"",
     "test": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.test.ts\"",
-    "check": "npm run fmt && npm run lint && npm run test",
     "build": "tsdown",
-    "solve-captcha": "node --experimental-transform-types src/solve-captcha.ts"
+    "dev": "node --experimental-transform-types src/index.ts"
   },
   "dependencies": {
     "patchright": "^1.62.1"

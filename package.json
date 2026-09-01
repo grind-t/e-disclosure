@@ -28,7 +28,7 @@
     "test:e2e": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.e2e.test.ts\"",
     "test": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.test.ts\"",
     "build": "tsdown",
-    "dev": "node --experimental-transform-types src/index.ts"
+    "pull:reports": "node --experimental-transform-types src/pull-reports.ts"
   },
   "dependencies": {
     "patchright": "^1.62.1"

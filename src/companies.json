@@ -2,42 +2,48 @@
   "1402047184": {
     "id": "12557",
     "ratings": [
-      {"period": "2025", "value": 17}
+      {"period": "2025", "value": 17},
+      {"period": "2026, 6 месяцев", "value": 17, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "1650032058": {
     "id": "33",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16},
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "1652009537": {
     "id": "38570",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16},
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "1832043008": {
     "id": "29364",
     "ratings": [
-      {"period": "2025", "value": 14}
+      {"period": "2025", "value": 14},
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "2309085638": {
     "id": "7671",
     "ratings": [
-      {"period": "2025", "value": 18}
+      {"period": "2025", "value": 18},
+      {"period": "2026, 6 месяцев", "value": 21, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "2460066195": {
     "id": "8580",
     "ratings": [
-      {"period": "2026, 3 месяца", "value": 23}
+      {"period": "2026, 3 месяца", "value": 23},
+      {"period": "2026, 6 месяцев", "value": 23, "outlook": "STA"}
     ],
     "reportType": 4
   },
@@ -51,203 +57,232 @@
   "2536247123": {
     "id": "39035",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16},
+      {"period": "2026, 6 месяцев", "value": 19, "outlook": "DEV"}
     ],
     "reportType": 4
   },
   "2723115222": {
     "id": "14943",
     "ratings": [
-      {"period":"2025", "value": 17}
+      {"period": "2025", "value": 17},
+      {"period": "2026, 6 месяцев", "value": 17, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "3808175078": {
     "id": "14428",
     "ratings": [
-      {"period": "2025", "value": 19}
+      {"period": "2025", "value": 19},
+      {"period": "2026, 6 месяцев", "value": 20, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "3900019850": {
     "id": "39059",
     "ratings": [
-      {"period": "2025", "value": 23}
+      {"period": "2025", "value": 23},
+      {"period": "2026, 6 месяцев", "value": 23, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "4205119220": {
     "id": "19309",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16},
+      {"period": "2026, 6 месяцев", "value": 19, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "4705081944": {
     "id": "38241",
     "ratings": [
-      {"period": "2025", "value": 19}
+      {"period": "2025", "value": 19},
+      {"period": "2026, 6 месяцев", "value": 18, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "5047265516": {
     "id": "38967",
     "ratings": [
-      {"period": "2025", "value": 19}
+      {"period": "2025", "value": 19},
+      {"period": "2026, 6 месяцев", "value": 19, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "5077009710": {
     "id": "39662",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16},
+      {"period": "2026, 6 месяцев", "value": 17, "outlook": "DEV"}
     ],
     "reportType": 4
   },
   "5503067018": {
     "id": "509",
     "ratings": [
-      {"period": "2026, 3 месяца", "value": 21}
+      {"period": "2026, 3 месяца", "value": 21},
+      {"period": "2026, 6 месяцев", "value": 21, "outlook": "POS"}
     ],
     "reportType": 3
   },
   "5902202276": {
     "id": "35989",
     "ratings": [
-      {"period": "2026, 3 месяца", "value": 17}
+      {"period": "2026, 3 месяца", "value": 17},
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "6672241304": {
     "id": "13378",
     "ratings": [
-      {"period": "2025", "value": 12}
+      {"period": "2025", "value": 12},
+      {"period": "2026, 6 месяцев", "value": 15, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "6685151087": {
     "id": "37991",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16},
+      {"period": "2026, 6 месяцев", "value": 17, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7703104630": {
     "id": "4772",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16},
+      {"period": "2026, 6 месяцев", "value": 19, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "7703389295": {
     "id": "7832",
     "ratings": [
-      {"period": "2025", "value": 22}
+      {"period": "2025", "value": 22},
+      {"period": "2026, 6 месяцев", "value": 22, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7704810149": {
     "id": "38972",
     "ratings": [
-      {"period": "2025", "value": 19}
+      {"period": "2025", "value": 19},
+      {"period": "2026, 6 месяцев", "value": 19, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7705634425": {
     "id": "7380",
     "ratings": [
-      {"period": "2025", "value": 19}
+      {"period": "2025", "value": 19},
+      {"period": "2026, 6 месяцев", "value": 20, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7706107510": {
     "id": "6505",
     "ratings": [
-      {"period": "2026, 3 месяца", "value": 21}
+      {"period": "2026, 3 месяца", "value": 21},
+      {"period": "2026, 6 месяцев", "value": 23, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7707049388": {
     "id": "141",
     "ratings": [
-      {"period": "2026, 3 месяца", "value": 21}
+      {"period": "2026, 3 месяца", "value": 21},
+      {"period": "2026, 6 месяцев", "value": 22, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7707083893": {
     "id": "3043",
     "ratings": [
-      {"period":"2026, 3 месяца", "value": 23}
+      {"period": "2026, 3 месяца", "value": 23},
+      {"period": "2026, 6 месяцев", "value": 23, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7708186108": {
     "id": "11525",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16},
+      {"period": "2026, 6 месяцев", "value": 17, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7708503727": {
     "id": "4543",
     "ratings": [
-      {"period": "2026, 3 месяца", "value": 23}
+      {"period": "2026, 3 месяца", "value": 23},
+      {"period": "2026, 6 месяцев", "value": 21, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7708709686": {
     "id": "30119",
     "ratings": [
-      {"period": "2025", "value": 22}
+      {"period": "2025", "value": 22},
+      {"period": "2026, 6 месяцев", "value": 21, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7709780434": {
     "id": "36564",
     "ratings": [
-      {"period": "2025", "value": 19}
+      {"period": "2025", "value": 19},
+      {"period": "2026, 6 месяцев", "value": 19, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "7714216826": {
     "id": "38333",
     "ratings": [
-      {"period": "2025", "value": 13}
+      {"period": "2025", "value": 13},
+      {"period": "2026, 6 месяцев", "value": 13, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "7717151380": {
     "id": "27572",
     "ratings": [
-      {"period": "2026, 3 месяца", "value": 21}
+      {"period": "2026, 3 месяца", "value": 21},
+      {"period": "2026, 6 месяцев", "value": 22, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "7720261827": {
     "id": "31532",
     "ratings": [
-      {"period": "2025", "value": 20}
+      {"period": "2025", "value": 20},
+      {"period": "2026, 6 месяцев", "value": 20, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "7722581759": {
     "id": "39124",
     "ratings": [
-      {"period": "2025", "value": 17}
+      {"period": "2025", "value": 17},
+      {"period": "2026, 6 месяцев", "value": 20, "outlook": "NEG"}
     ],
     "reportType": 3
   },
   "7722753969": {
     "id": "39131",
     "ratings": [
-      {"period": "2026, 3 месяца", "value": 17}
+      {"period": "2026, 3 месяца", "value": 17},
+      {"period": "2026, 6 месяцев", "value": 17, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7724490000": {
     "id": "28188",
     "ratings": [
-      {"period": "2026, 3 месяца", "value": 20}
+      {"period": "2026, 3 месяца", "value": 20},
+      {"period": "2026, 6 месяцев", "value": 19, "outlook": "DEV"}
     ],
     "reportType": 4
   },
@@ -261,42 +296,48 @@
   "7728168971": {
     "id": "1389",
     "ratings": [
-      {"period": "2025", "value": 21}
+      {"period": "2025", "value": 21},
+      {"period": "2026, 6 месяцев", "value": 22, "outlook": "POS"}
     ],
     "reportType": 4
   },
   "7736279160": {
     "id": "39705",
     "ratings": [
-      {"period": "2025", "value": 19}
+      {"period": "2025", "value": 19},
+      {"period": "2026, 6 месяцев", "value": 21, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "7736328675": {
     "id": "39170",
     "ratings": [
-      {"period": "2025", "value": 13}
+      {"period": "2025", "value": 13},
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7744001497": {
     "id": "2798",
     "ratings": [
-      {"period": "2026, 3 месяца", "value": 21}
+      {"period": "2026, 3 месяца", "value": 21},
+      {"period": "2026, 6 месяцев", "value": 22, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7750004150": {
     "id": "15609",
     "ratings": [
-      {"period":"2026, 3 месяца", "value": 23}
+      {"period": "2026, 3 месяца", "value": 23},
+      {"period": "2026, 6 месяцев", "value": 21, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7802131219": {
     "id": "38163",
     "ratings": [
-      {"period": "2025", "value": 17}
+      {"period": "2025", "value": 17},
+      {"period": "2026, 6 месяцев", "value": 17, "outlook": "NEG"}
     ],
     "reportType": 4
   },
@@ -310,21 +351,24 @@
   "7810245481": {
     "id": "7975",
     "ratings": [
-      {"period": "2025", "value": 17}
+      {"period": "2025", "value": 17},
+      {"period": "2026, 6 месяцев", "value": 17, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "7810962785": {
     "id": "38305",
     "ratings": [
-      {"period": "2025", "value": 20}
+      {"period": "2025", "value": 20},
+      {"period": "2026, 6 месяцев", "value": 19, "outlook": "STA"}
     ],
     "reportType": 4
   },
   "7816430057": {
     "id": "17531",
     "ratings": [
-      {"period": "2025", "value": 19}
+      {"period": "2025", "value": 19},
+      {"period": "2026, 6 месяцев", "value": 17, "outlook": "NEG"}
     ],
     "reportType": 4
   },
@@ -338,28 +382,32 @@
   "7838360491": {
     "id": "4834",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16},
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "9704005675": {
     "id": "38507",
     "ratings": [
-      {"period": "2025", "value": 11}
+      {"period": "2025", "value": 11},
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "9718077239": {
     "id": "38538",
     "ratings": [
-      {"period": "2025", "value": 20}
+      {"period": "2025", "value": 20},
+      {"period": "2026, 6 месяцев", "value": 20, "outlook": "POS"}
     ],
     "reportType": 4
   },
   "9731004688": {
     "id": "36419",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16},
+      {"period": "2026, 6 месяцев", "value": 13, "outlook": "NEG"}
     ],
     "reportType": 4
   }

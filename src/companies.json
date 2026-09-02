@@ -150,6 +150,13 @@
     ],
     "reportType": 4
   },
+  "7420000133": {
+    "id": "5234",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
+    ],
+    "reportType": 4
+  },
   "7703104630": {
     "id": "4772",
     "ratings": [

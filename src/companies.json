@@ -50,7 +50,7 @@
   "2508064833": {
     "id": "36547",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16, "outlook": "NEG"}
     ],
     "reportType": 3
   },
@@ -289,7 +289,7 @@
   "7727620673": {
     "id": "26517",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16, "outlook": "NEG"}
     ],
     "reportType": 4
   },
@@ -344,9 +344,11 @@
   "7804016807": {
     "id": "3806",
     "ratings": [
-      {"period": "2025", "value": 16}
+      {"period": "2025", "value": 16},
+      {"period": "2026, 6 месяцев", "value": 15, "outlook": "NEG"}
+
     ],
-    "reportType": 4
+    "reportType": 3
   },
   "7810245481": {
     "id": "7975",
@@ -375,7 +377,9 @@
   "7826705374": {
     "id": "34041",
     "ratings": [
-      {"period": "2025", "value": 19}
+      {"period": "2025", "value": 19},
+      {"period": "2026, 6 месяцев", "value": 12, "outlook": "NEG"}
+
     ],
     "reportType": 4
   },

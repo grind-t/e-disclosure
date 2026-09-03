@@ -10,7 +10,7 @@
   "1435032049": {
     "id": "4994",
     "ratings": [
-      {"period": "2026, 6 месяцев", "value": 0, "outlook": ""}
+      {"period": "2026, 6 месяцев", "value": 17, "outlook": "STA"}
     ],
     "reportType": 4
   },
@@ -174,7 +174,7 @@
   "7424024375": {
     "id": "11794",
     "ratings": [
-      {"period": "2026, 6 месяцев", "value": 0, "outlook": ""}
+      {"period": "2026, 6 месяцев", "value": 21, "outlook": "DEV"}
     ],
     "reportType": 4
   },
@@ -205,7 +205,7 @@
   "7705619586": {
     "id": "36668",
     "ratings": [
-      {"period": "2026, 6 месяцев", "value": 0, "outlook": ""}
+      {"period": "2026, 6 месяцев", "value": 15, "outlook": "NEG"}
     ],
     "reportType": 4
   },
@@ -267,7 +267,7 @@
   "7708591995": {
     "id": "11194",
     "ratings": [
-      {"period": "2026, 6 месяцев", "value": 0, "outlook": ""}
+      {"period": "2026, 6 месяцев", "value": 11, "outlook": "NEG"}
     ],
     "reportType": 4
   },
@@ -290,7 +290,7 @@
   "7710373095": {
     "id": "274",
     "ratings": [
-      {"period": "2026, 6 месяцев", "value": 0, "outlook": ""}
+      {"period": "2026, 6 месяцев", "value": 13, "outlook": "NEG"}
     ],
     "reportType": 4
   },
@@ -344,7 +344,7 @@
   "7723390901": {
     "id": "39224",
     "ratings": [
-      {"period": "2025", "value": 0, "outlook": ""}
+      {"period": "2025", "value": 16, "outlook": "NEG"}
     ],
     "reportType": 3
   },
@@ -359,14 +359,14 @@
   "7725806898": {
     "id": "34262",
     "ratings": [
-      {"period": "2026, 6 месяцев", "value": 0, "outlook": ""}
+      {"period": "2026, 6 месяцев", "value": 18, "outlook": "NEG"}
     ],
     "reportType": 4
   },
   "7727547261": {
     "id": "7659",
     "ratings": [
-      {"period": "2026, 6 месяцев", "value": 0, "outlook": ""}
+      {"period": "2026, 6 месяцев", "value": 22, "outlook": "STA"}
     ],
     "reportType": 4
   },
@@ -395,7 +395,7 @@
   "7736227885": {
     "id": "37065",
     "ratings": [
-      {"period": "2026, 6 месяцев", "value": 0, "outlook": ""}
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
     ],
     "reportType": 4
   },

@@ -30,6 +30,13 @@
     ],
     "reportType": 4
   },
+  "1660359180": {
+    "id": "37978",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
+    ],
+    "reportType": 4
+  },
   "1832043008": {
     "id": "29364",
     "ratings": [
@@ -77,6 +84,13 @@
     ],
     "reportType": 4
   },
+  "3652904371": {
+    "id": "39641",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
+    ],
+    "reportType": 4
+  },
   "3808175078": {
     "id": "14428",
     "ratings": [
@@ -90,6 +104,13 @@
     "ratings": [
       {"period": "2025", "value": 23},
       {"period": "2026, 6 месяцев", "value": 23, "outlook": "STA"}
+    ],
+    "reportType": 4
+  },
+  "3906394938": {
+    "id": "38288",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 19, "outlook": "NEG"}
     ],
     "reportType": 4
   },
@@ -139,6 +160,13 @@
     ],
     "reportType": 4
   },
+  "5405162714": {
+    "id": "7529",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 14, "outlook": "NEG"}
+    ],
+    "reportType": 4
+  },
   "5503067018": {
     "id": "509",
     "ratings": [
@@ -154,6 +182,13 @@
       {"period": "2026, 6 месяцев", "value": 16, "outlook": "STA"}
     ],
     "reportType": 4
+  },
+  "6452019819": {
+    "id": "12660",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "STA"}
+    ],
+    "reportType": 3
   },
   "6672241304": {
     "id": "13378",
@@ -193,6 +228,13 @@
     ],
     "reportType": 4
   },
+  "7703213534": {
+    "id": "451",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
+    ],
+    "reportType": 4
+  },
   "7703389295": {
     "id": "7832",
     "ratings": [
@@ -201,11 +243,25 @@
     ],
     "reportType": 4
   },
+  "7704221591": {
+    "id": "1607",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 20, "outlook": "STA"}
+    ],
+    "reportType": 3
+  },
   "7704810149": {
     "id": "38972",
     "ratings": [
       {"period": "2025", "value": 19},
       {"period": "2026, 6 месяцев", "value": 19, "outlook": "STA"}
+    ],
+    "reportType": 4
+  },
+  "7705392230": {
+    "id": "13358",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
     ],
     "reportType": 4
   },
@@ -255,6 +311,13 @@
     ],
     "reportType": 4
   },
+  "7707710865": {
+    "id": "23643",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 20, "outlook": "NEG"}
+    ],
+    "reportType": 3
+  },
   "7708186108": {
     "id": "11525",
     "ratings": [
@@ -283,6 +346,13 @@
     "ratings": [
       {"period": "2025", "value": 22},
       {"period": "2026, 6 месяцев", "value": 21, "outlook": "STA"}
+    ],
+    "reportType": 4
+  },
+  "7709378229": {
+    "id": "15038",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 20, "outlook": "STA"}
     ],
     "reportType": 4
   },
@@ -392,6 +462,20 @@
     ],
     "reportType": 4
   },
+  "7731644035": {
+    "id": "27324",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 17, "outlook": "STA"}
+    ],
+    "reportType": 4
+  },
+  "7733015025": {
+    "id": "8959",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
+    ],
+    "reportType": 4
+  },
   "7734202860": {
     "id": "202",
     "ratings": [
@@ -479,6 +563,13 @@
     ],
     "reportType": 4
   },
+  "7819039902": {
+    "id": "39187",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 15, "outlook": "POS"}
+    ],
+    "reportType": 3
+  },
   "7826705374": {
     "id": "34041",
     "ratings": [
@@ -493,6 +584,13 @@
     "ratings": [
       {"period": "2025", "value": 16},
       {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
+    ],
+    "reportType": 4
+  },
+  "7840438730": {
+    "id": "37392",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 14, "outlook": "NEG"}
     ],
     "reportType": 4
   },
@@ -533,6 +631,20 @@
     ],
     "reportType": 4
   },
+  "9726092897": {
+    "id": "39560",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
+    ],
+    "reportType": 4
+  },
+  "9729387137": {
+    "id": "38535",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 15, "outlook": "NEG"}
+    ],
+    "reportType": 4
+  },
   "9731004688": {
     "id": "36419",
     "ratings": [
@@ -545,6 +657,13 @@
     "id": "38723",
     "ratings": [
       {"period": "2026, 6 месяцев", "value": 17, "outlook": "STA"}
+    ],
+    "reportType": 3
+  },
+  "9909152102": {
+    "id": "37343",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 22, "outlook": "STA"}
     ],
     "reportType": 3
   }

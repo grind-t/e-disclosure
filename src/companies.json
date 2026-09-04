@@ -206,6 +206,13 @@
     ],
     "reportType": 4
   },
+  "7203126844": {
+    "id": "38026",
+    "ratings": [
+      {"period": "2026, 6 месяцев", "value": 0, "outlook": "NEG"}
+    ],
+    "reportType": 3
+  },
   "7420000133": {
     "id": "5234",
     "ratings": [
@@ -234,6 +241,13 @@
       {"period": "2026, 6 месяцев", "value": 16, "outlook": "NEG"}
     ],
     "reportType": 4
+  },
+  "7703413614": {
+    "id": "38504",
+     "ratings": [
+      {"period": "2026, 6 месяцев", "value": 0, "outlook": "NEG"}
+    ],
+    "reportType": 3
   },
   "7703389295": {
     "id": "7832",

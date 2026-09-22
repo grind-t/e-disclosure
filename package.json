@@ -28,9 +28,8 @@
     "test:e2e": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.e2e.test.ts\"",
     "test": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.test.ts\"",
     "build": "tsdown",
-    "pull:reports": "node --experimental-transform-types src/pull-reports.ts",
-    "pull:report": "node --experimental-transform-types src/pull-report-by-inn.ts",
-    "export:ratings": "node --experimental-transform-types src/export-ratings.ts"
+    "pull:report": "node --experimental-transform-types scripts/pull-msfo-report.ts",
+    "export:ratings": "node --experimental-transform-types scripts/export-ratings.ts"
   },
   "dependencies": {
     "content-disposition": "^3.0.0",

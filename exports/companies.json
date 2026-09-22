@@ -362,6 +362,11 @@
     "ratings": [{ "period": "2026, 6 месяцев", "value": 13, "outlook": "NEG" }],
     "reportType": 4
   },
+  "7710918800": {
+    "id": "38287",
+    "ratings": [{ "period": "2026, 6 месяцев", "value": 17, "outlook": "STA" }],
+    "reportType": 3
+  },
   "7714216826": {
     "id": "38333",
     "ratings": [

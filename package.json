@@ -33,6 +33,8 @@
     "export:ratings": "node --experimental-transform-types src/export-ratings.ts"
   },
   "dependencies": {
+    "content-disposition": "^3.0.0",
+    "dayjs": "^1.11.23",
     "patchright": "^1.62.1"
   },
   "devDependencies": {
